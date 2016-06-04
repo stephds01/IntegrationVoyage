@@ -1,0 +1,23 @@
+.pub {
+
+  color: #eee;
+  background-image: url('img/take1.jpg');
+
+  -webkit-background-size:cover;
+  background-size:cover;
+
+    .pub-text  {
+      position: absolute;
+      top: 447px;
+      left:302px;
+
+      width:515px;
+      height: 312px;
+
+        h4 {
+          font-size: 60px;
+        }
+
+    }
+
+}

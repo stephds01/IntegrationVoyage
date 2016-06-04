@@ -1,0 +1,116 @@
+.services {
+
+  color: #eee;
+
+
+    .services-row1, .services-row2 {
+
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-end;
+
+      height:277px;
+
+        .service-box {
+          position: relative;
+          width: 400px;
+          padding:15px 43px 58px 40px ;
+
+            h3 {
+              font-weight:lighter;
+              line-height: 1.65;
+            }
+
+            p {
+              padding-bottom: 20px;
+
+              font-size: 13px;
+              line-height: 24px;
+            }
+
+            .service-lien {
+              position: absolute;
+              bottom:61px;
+              left:40px;
+              right: 0;
+            }
+
+        }
+
+        .service-four {
+          position: relative;
+          width: 285px;
+
+          padding:15px 43px 58px 40px ;
+
+          h3 {
+            font-weight:lighter;
+            line-height: 1.65;
+          }
+
+          p {
+            padding-bottom: 20px;
+
+            font-size: 13px;
+            line-height: 24px;
+          }
+
+
+
+        }
+
+        .service-box-double {
+          position: relative;
+          width: 800px;
+          padding:15px 43px 58px 40px ;
+
+          .service-lien {
+            position: absolute;
+            bottom:61px;
+            left:40px;
+            right: 0;
+          }
+
+        }
+
+        .box1 {
+          background-color: #f5989d;
+        }
+
+        .box2 {
+          background-color: #615f7d;
+        }
+
+        .box3 {
+          background-image: url('img/test1.jpg');
+          -webkit-background-size:cover;
+          background-size:cover;
+        }
+
+        .box4 {
+          background-color: #bd8cbf;
+        }
+
+        .box5 {
+          background-image: url('img/test3.jpg');
+          -webkit-background-size:cover;
+          background-size:cover;
+
+        }
+
+        .box6 {
+          background-color: #82ca9c;
+        }
+
+        .box7 {
+          background-image: url('img/test4.jpg');
+          -webkit-background-size:cover;
+          background-size:cover;
+
+
+        }
+
+
+    }
+}

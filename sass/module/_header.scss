@@ -1,0 +1,58 @@
+/**
+ * Created by Utilisateur on 02/06/2016.
+ */
+
+
+
+
+.header {
+  position: relative;
+  background-image: url('img/take.jpg');
+  margin:0;
+  padding:0;
+  -webkit-background-size:cover;
+  background-size:cover;
+
+      .iphone {
+        position: absolute;
+        top: 260px;
+        right: 266px;
+
+        background-image: url('img/iphone.png');
+        width: 713px;
+        height: 871px;
+      }
+
+      .header-logo {
+
+        position: relative;
+        top: 54px;
+        left:0;
+        //width: 300px;
+
+        display: inline-flex;
+        align-items: center;
+
+          img {
+            width:42px;
+            height: 42px;
+
+          }
+
+          .header-title {
+            padding-left: 10px;
+
+            font-family: 'Merriweather', serif;
+            font-size: 20.8px;
+          }
+      }
+
+      .header-container {
+          position: relative;
+          top: 356px;
+          left:0;
+
+      }
+
+
+}

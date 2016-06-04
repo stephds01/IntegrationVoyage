@@ -1,0 +1,79 @@
+.price {
+  color: #8297a7;
+
+
+      .price-box {
+        margin-top: 103px;
+        padding-top : 48px;
+        margin-bottom: 165px;
+        padding-left: 45px;
+
+          .btn-legacy {
+            background-color: #e1e1e1;
+            color: #eee;
+
+            padding: 2px 5px;
+            font-size: 11px;
+            font-weight: bold;
+            text-transform: uppercase;
+
+          }
+
+        .btn-popular {
+          background-color: #bd8cbf;
+          color: #eee;
+          padding: 2px 5px;
+          font-size: 11px;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+
+          h4 {
+            font-size: 30.4px;
+            color: #2e3b4e;
+
+          }
+
+          p {
+            font-size: 14px;
+            //border: 1px red solid;
+            margin-bottom: 27px;
+          }
+
+          .btn-primary {
+            background-color: #82ca9c;
+            border:1px  #82ca9c solid;
+
+            margin-bottom: 21px;
+
+            -webkit-border-radius:0 0 0 0;
+            -moz-border-radius:0 0 0 0;
+            border-radius:0 0 0 0;
+          }
+
+          .btn-primary:hover {
+            border:1px  #82ca9c solid;
+
+          }
+
+          .price-icon {
+            color: #c5c5c5;
+            margin-bottom: 56px;
+
+              i {
+                margin-left: 10px;
+              }
+          }
+      }
+
+      .price-box1 {
+        //border: 1px white solid;
+      }
+
+      .price-box2 {
+        background-color: white;
+        -webkit-box-shadow: inset 60px -16px #000000;
+        -moz-box-shadow: inset 60px -16px #000000;
+        box-shadow: inset 1px 1.5px rgba(0, 0, 0, 0.44);
+      }
+}

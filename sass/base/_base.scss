@@ -1,0 +1,72 @@
+html, body {
+  height:100%;
+  //margin: 0;
+  padding: 0;
+};
+
+body {
+
+  margin: 0 auto;
+
+  background-color: white;
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 13px;
+  color: white;
+
+
+
+
+}
+
+.container-fluid {
+  max-width: 1800px;
+  //border: 1px green solid;
+  margin:0 auto;
+  padding: 0;
+
+
+
+}
+.container {
+
+  max-width: 1230px;
+
+  padding: 0 0 0 30px;
+  margin: 0 auto;
+  //border: 1px red solid;
+
+}
+
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+}
+
+h2 {
+  font-size:35px;
+}
+
+h3 {
+  font-size:30px;
+}
+
+p {
+  font-size: 13px;
+  line-height: 2;
+}
+
+a {
+  color: #eee;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #959595;
+  font-weight: bold;
+  text-decoration: none;
+}
+

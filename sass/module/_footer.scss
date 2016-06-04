@@ -1,0 +1,52 @@
+.footer {
+
+  color: #eee;
+
+
+      .footer-box {
+
+        h2 {
+          margin-bottom: 27px;
+        }
+
+
+
+      }
+
+      .footer-box1 {
+
+        p {
+          margin-bottom: 70px;
+        }
+
+        .footer-list {
+          list-style: none;
+        }
+
+        .footer-list li:first-child {
+          margin-bottom: 20px;
+        }
+
+      }
+
+  .footer-box2 {
+
+    input[type="text"] {
+      width: 400px;
+      height: 48px;
+    }
+    .input-group-addon{
+
+    }
+    .input-group-addon {
+      width:0;
+      padding: 6px 18px;
+      font-size: 27px;
+      color: #555;
+      background-color: #82ca9c;
+      border: 1px solid #ccc;
+    }
+
+  }
+
+}
